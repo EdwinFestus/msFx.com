@@ -6,7 +6,7 @@ function Navbar() {
     return (
 
         <section className=' fixed w-full py-5 sm:px-10 z-40 font-heading' >
-            <nav className='container-fluid relative flex items-center justify-between w-ful mx-auto px-4 md:px-0'>
+            <nav className='max-container relative flex items-center justify-between w-full mx-auto px-4 md:px-0'>
                 <div className='flex-1'>
                     <h3 className='text-xl text-white font-bold leading-normal uppercase'>MastermindFx</h3>
                 </div>
@@ -28,7 +28,7 @@ function Navbar() {
                             <a href="/contact" className='font-semibold'>Contact</a>
                         </li>
                     </ul>
-                    <div className='bg-lightblue-md py-2.5 px-10 rounded-full'>
+                    <div className='hidden lg:block bg-lightblue-md py-2.5 px-10 rounded-full'>
                         <a href='/login' className='text-md text-base-md font-bold'> Login</a>
                     </div>
                 </div>

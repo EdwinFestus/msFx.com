@@ -6,16 +6,17 @@ import About from './hero/AboutUs/About'
 
 export default function Home() {
   return (
-    <main className="w-full font-text ">
+    <main className="w-full font-text px-0 m-0">
       
-      <section className="w-full " 
+      <section className="w-full px-5" 
         style={{
           background: `url('images/HeroImg.png') no-repeat center/cover`
         }}
       >
         <Hero />
+
       </section>
-      <section className='p-24'>
+      <section className='px-10 md:px-24'>
         <WhyUs />
       </section>
       <section className='p-24'>

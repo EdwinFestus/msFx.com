@@ -1,29 +1,26 @@
 
 
-// using the constructive function in typscript to pass in props gives you an error of  "Binding element:'label' implicit has an 'any' type."
-// To resolve this issue we have to construct a funtion and make it a contructive function using className or define it withing the construct
-
-
-
-const Button = ({label, imgUrl, textColor, bgColor}: {label:string, imgUrl?:string, textColor?:string, bgColor?:string }) => {
-  return (
-    <div className='flex gap-5 '>
-        <button className={`inline-block py-5 px-[2.5em] font-bold text-xl   text-center ${bgColor ? `${textColor} ${bgColor}`:"bg-red-md text-white"} rounded-lg`}>
-            {label}
-
-            {imgUrl && (
-                <div>
-                    <img 
-                        src={imgUrl}
-                        alt="button"
-                        width={25}
-                        height={25}
-                        className='object-contain' />
-                </div>
-            )}
-        </button>
-    </div>
-  )
-}
-
-export default Button
+const Button = ({label, iconURL, backgroundColor, textColor, borderColor, fullWidth}: {label: string, iconURL?: string, backgroundColor: string, textColor: string, borderColor: string, fullWidth?: string}) => {
+    return (
+      <button
+        className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-sm md:text-md lg:text-xl font-bold leading-none
+        ${
+          backgroundColor
+            ? `${backgroundColor} ${textColor} ${borderColor}`
+            : "bg-coral-red text-white border-coral-red"
+        } rounded-full lg:rounded-md ${fullWidth && 'w-full'}`}
+      >
+        {label}
+  
+        {iconURL && (
+          <img
+            src={iconURL}
+            alt='arrow right icon'
+            className='ml-2 rounded-full bg-white w-5 h-5'
+          />
+        )}
+      </button>
+    )
+  }
+  
+  export default Button
