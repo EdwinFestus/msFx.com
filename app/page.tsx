@@ -8,10 +8,7 @@ export default function Home() {
   return (
     <main className="w-full font-text px-0 m-0">
       
-      <section className="w-full px-5" 
-        style={{
-          background: `url('images/HeroImg.png') no-repeat center/cover`
-        }}
+      <section className='w-full px-h-full flex  flex-col items-center justify-between  bg-[url("/images/Heroimg.png")] bg-no-repeat bg-cover py-15 md:min-h-[80%]' 
       >
         <Hero />
 

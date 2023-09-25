@@ -5,10 +5,10 @@ import { FaBars } from 'react-icons/fa'
 function Navbar() {
     return (
 
-        <section className=' fixed w-full py-5 sm:px-10 z-40 font-heading' >
-            <nav className='max-container relative flex items-center justify-between w-full mx-auto px-4 md:px-0'>
+        <section className=' fixed w-full py-3 sm:px-10 z-40 font-heading bg-base-md' >
+            <nav className='container-fluid relative flex items-center justify-between w-ful mx-auto px-4 md:px-0 '>
                 <div className='flex-1'>
-                    <h3 className='text-xl text-white font-bold leading-normal uppercase'>MastermindFx</h3>
+                    <h3 className='text-sm text-white font-bold leading-normal uppercase'>MastermindFx</h3>
                 </div>
                 <div className='flex space-x-20 items-center'>
                     <ul className='hidden gap-7 sm:hidden lg:flex'>
@@ -28,12 +28,12 @@ function Navbar() {
                             <a href="/contact" className='font-semibold'>Contact</a>
                         </li>
                     </ul>
-                    <div className='hidden lg:block bg-lightblue-md py-2.5 px-10 rounded-full'>
+                    <div className='bg-lightblue-md py-2.5 px-10 rounded-full hidden'>
                         <a href='/login' className='text-md text-base-md font-bold'> Login</a>
                     </div>
                 </div>
                 <div className='block  sm:block lg:hidden'>
-                    <button className='text-2xl'><FaBars color='white' /></button>
+                    <button className='text-xl'><FaBars color='white' /></button>
                 </div>
             </nav>
         </section>

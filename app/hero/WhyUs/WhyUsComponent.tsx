@@ -3,20 +3,20 @@ import Image from "next/image"
 
 const WhyUsComponent = ({ icon, title, text } : {icon: string, title: string, text:string}) => {
     return (
-        <div className='flex items-start space-y-5 flex-col  mt-10'>
+        <div className='flex items-start space-y-4 flex-col  mt-10 bg-white shadow-2xl px-6 py-10 rounded-2xl w-full' >
             <div className=""> 
                 <Image
                     src={icon}
                     alt='icon'
-                    width={50}
-                    height={50}
+                    width={25}
+                    height={25}
                     objectFit="contain"
                     className=''
                 />
             </div>
             
-            <h3 className="font-heading text-xl font-bold">{title}</h3>
-            <p className="text-md">{text}</p>
+            <h3 className="font-heading text-md font-bold">{title}</h3>
+            <p className="text-sm">{text}</p>
         </div>
     )
 }
