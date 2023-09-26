@@ -20,15 +20,14 @@ export default function Home() {
       <section className='px-8 md:px-24'>
         <WhyUs />
       </section>
-      <section className='p-24'>
+      {/* <section className='p-24'>
         <About />
       </section>
       <section className='p-24'>
-        
+        Testimonials
       </section>
-      <section className=''>
+      <section className='p-24'>
         Taking Action
-        <LandingPage />
       </section>
       <section className='p-24'>
         Email Newsletter
@@ -37,7 +36,7 @@ export default function Home() {
       
       <section className='p-24'>
         Email Newsletter
-      </section>
+      </section> */}
 
 
     </main>
