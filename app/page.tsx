@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
 
       </section>
-      <section className='px-10 md:px-24'>
+      <section className='px-8 md:px-24'>
         <WhyUs />
       </section>
       <section className='p-24'>

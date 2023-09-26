@@ -12,7 +12,7 @@ const Hero = () => {
         <p className='text-gray-300 mb-8'>Welcome to the world of limitless financial possibilities! Are you ready to harness the power of the foreign exchange market like a true master? <span className="hidden md:inline-block">Look no further than MastermindFX – your gateway to success in the dynamic world of forex trading!</span></p>
         
         <div  className='flex space-x-5'>
-          <a href="#" className=" hover:bg-lightblue-md bg-cyan-400 text-base-md py-2 font-semibold px-4 rounded">Get Started</a>
+          <a href="#" className=" hover:bg-lightblue-md bg-cyan-400 text-base-md py-2 font-semibold px-4 rounded">Learn More</a>
           <a href="#" className="bg-red-500 hover:bg-red-400  py-2 font-semibold px-4 rounded text-white">Get Started</a>
         </div>
     </section>
