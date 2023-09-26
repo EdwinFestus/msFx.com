@@ -5,40 +5,38 @@ import { FaBars } from 'react-icons/fa'
 function Navbar() {
     return (
 
-        <section className=' fixed w-full py-3 sm:px-10 z-40 font-heading bg-base-md' >
-            <nav className='container-fluid relative flex items-center justify-between w-ful mx-auto px-4 md:px-0 '>
-                <div className='flex-1'>
-                    <h3 className='text-sm text-white font-bold leading-normal uppercase'>MastermindFx</h3>
-                </div>
-                <div className='flex space-x-20 items-center'>
-                    <ul className='hidden gap-7 sm:hidden lg:flex'>
-                        <li className='text-md  text-gray-50 leading-normal'>
-                            <a href="/" className='font-semibold'>Home</a>
-                        </li>
-                        <li className='text-md  text-gray-50 leading-normal'>
-                            <a href="/about" className='font-semibold'>About</a>
-                        </li>
-                        <li className='text-md  text-gray-50 leading-normal'>
-                            <a href="/services" className='font-semibold'>Services</a>
-                        </li>
-                        <li className='text-md  text-gray-50 leading-normal'>
-                            <a href="/billing" className='font-semibold'>Billing</a>
-                        </li>
-                        <li className='text-md  text-gray-50 leading-normal'>
-                            <a href="/contact" className='font-semibold'>Contact</a>
-                        </li>
-                    </ul>
-                    <div className='bg-lightblue-md py-2.5 px-10 rounded-full hidden'>
-                        <a href='/login' className='text-md text-base-md font-bold'> Login</a>
+        <section className='' >
+            <nav className="fixed w-full z-50 bg-transparent bg-gray-900 text-white ">
+                <div className="container mx-auto px-4">
+                    <div className="flex justify-between items-center py-4">
+                        <a href="#" className="text-lg font-bold text-white uppercase">MastermindFx</a>
+                        <button className="lg:hidden focus:outline-none" id="mobile-menu-button">
+                            <svg className="h-6 w-6 fill-current text-white" viewBox="0 0 24 24">
+                                <path
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                            </svg>
+                        </button>
+                        <div className="hidden lg:flex" id="desktop-menu">
+                            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md font-bold">Home</a>
+                            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">About</a>
+                            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Services</a>
+                            <a href="#" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md">Contact</a>
+                        </div>
                     </div>
                 </div>
-                <div className='block  sm:block lg:hidden'>
-                    <button className='text-xl'><FaBars color='white' /></button>
-                </div>
             </nav>
+        
         </section>
 
     )
 }
 
 export default Navbar
+
+
+

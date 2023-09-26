@@ -3,6 +3,7 @@
 import WhyUs from '@/app/hero/WhyUs/WhyUs'
 import Hero from '@/app/hero/page'
 import About from './hero/AboutUs/About'
+import LandingPage from './LandingPage'
 
 export default function Home() {
   return (
@@ -23,7 +24,11 @@ export default function Home() {
         <About />
       </section>
       <section className='p-24'>
+        
+      </section>
+      <section className=''>
         Taking Action
+        <LandingPage />
       </section>
       <section className='p-24'>
         Email Newsletter

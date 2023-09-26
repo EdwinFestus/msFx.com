@@ -4,10 +4,10 @@ import { FaBook } from 'react-icons/fa'
 
 const WhyUs = () => {
   return (
-    <section className='flex items-start lg:items-center flex-col py-3 font-text max-container mx-auto'>
-        <h2 className='text-3xl md:text-4xl lg:text-5xl font-heading font-bold uppercase md:text-center py-[3rem] md:py-[5rem]  lg:py-[8rem]'>Why Choose MastermindFX?</h2>
+    <section className='flex items-start lg:items-center flex-col py-20 font-text max-container mx-auto'>
+        <h2 className='text-3xl font-bold text-center mb-10 font-heading uppercase'>Why Choose MastermindFX?</h2>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-15 lg:gap-15'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             <WhyUsComponent 
               icon={'/icons/project-manager.png'} 
               title='Expertise That Counts' 
