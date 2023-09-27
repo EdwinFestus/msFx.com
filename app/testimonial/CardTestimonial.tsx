@@ -1,24 +1,32 @@
 import React from 'react'
+import Image from 'next/image'
 
-function CardTestimonial({imgUrl, text, name}: {imgUrl?:string, text: string, name: string}) {
+function CardTestimonial({ imgUrl, text, name }: { imgUrl?: string, text: string, name: string }) {
     return (
-        <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-10">Testimonials</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white p-6 rounded">
-                    <p className="text-gray-700">{text}</p>
-                    <p className="text-gray-600">- {name}</p>
-                </div>
-                <div className="bg-white p-6 rounded">
-                    <p className="text-gray-700">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                    <p className="text-gray-600 font-bold">- Jane Smith</p>
-                </div>
-                <div className="bg-white p-6 rounded">
-                    <p className="text-gray-700">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                    <p className="text-gray-600">- Mike Johnson</p>
-                </div>
+            
+
+        <div className="bg-white p-6 h-full rounded shadow-md">
+            <div>
+            {
+                imgUrl && (
+                    <div className='rounded-full mb-5'>
+                        <Image 
+                            src={imgUrl}
+                            height={100}
+                            width={100}
+                            alt={name}
+                            objectFit='cover'
+                            className='rounded-full'
+                        />
+                    </div>
+                )
+            }
             </div>
+            <p className="text-gray-700">"{text}"</p>
+            <p className="text-gray-600 font-heading font-bold capitalize">- {name}</p>
         </div>
+
+
     )
 }
 

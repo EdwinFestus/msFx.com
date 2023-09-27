@@ -1,14 +1,14 @@
-
+import Image from 'next/image'
 
 const Button = ({label, imgUrl, textColor, bgColor}: {label:string, imgUrl?:string, textColor?:string, bgColor?:string }) => {
   return (
     <div className='flex gap-5 '>
-        <button className={`inline-block py-2 px-4 font-bold text-sm   text-center ${bgColor ? `${textColor} ${bgColor}`:"bg-red-md text-white"} rounded-none`}>
+        <button className={`hover:bg-lightblue-md bg-cyan-400 text-base-md py-2 font-semibold px-4 rounded ${bgColor ? `${textColor} ${bgColor}`:"bg-red-md text-white"} rounded-none`}>
             {label}
 
             {imgUrl && (
                 <div>
-                    <img 
+                    <Image 
                         src={imgUrl}
                         alt="button"
                         width={25}

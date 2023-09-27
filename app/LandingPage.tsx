@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingPage() {
     return (
-        <>
+        <div>
 
             {/* <!-- Navigation --> */}
             <nav className="bg-gray-900 text-white p-4">
@@ -75,7 +75,7 @@ function LandingPage() {
                 </div>
             </footer>
 
-        </>
+        </div>
     )
 }
 

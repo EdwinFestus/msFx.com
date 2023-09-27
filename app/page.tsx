@@ -4,6 +4,7 @@ import WhyUs from '@/app/hero/WhyUs/WhyUs'
 import Hero from '@/app/hero/page'
 import About from './hero/AboutUs/About'
 import LandingPage from './LandingPage'
+import Testimonial from './testimonial/Testimonial'
 
 export default function Home() {
   return (
@@ -20,11 +21,11 @@ export default function Home() {
       <section className='px-8 md:px-24'>
         <WhyUs />
       </section>
-      {/* <section className='p-24'>
+      <section className='p-24'>
         <About />
       </section>
-      <section className='p-24'>
-        Testimonials
+      <section className='bg-gray-100 py-20 px-8 md:px-24'>
+        <Testimonial />
       </section>
       <section className='p-24'>
         Taking Action
@@ -36,7 +37,7 @@ export default function Home() {
       
       <section className='p-24'>
         Email Newsletter
-      </section> */}
+      </section>
 
 
     </main>
