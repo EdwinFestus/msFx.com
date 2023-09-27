@@ -5,25 +5,25 @@ function CardTestimonial({ imgUrl, text, name }: { imgUrl?: string, text: string
     return (
             
 
-        <div className="bg-white p-6 h-full rounded shadow-md">
+        <div className="bg-white shadow-md rounded-lg p-4 ">
             <div>
             {
                 imgUrl && (
                     <div className='rounded-full mb-5'>
                         <Image 
                             src={imgUrl}
-                            height={100}
-                            width={100}
+                            height={160}
+                            width={160}
                             alt={name}
-                            objectFit='cover'
-                            className='rounded-full'
+                            objectFit='contain'
+                            className='w-20 h-20 rounded-full mb-4'
                         />
                     </div>
                 )
             }
             </div>
-            <p className="text-gray-700">"{text}"</p>
-            <p className="text-gray-600 font-heading font-bold capitalize">- {name}</p>
+            <p className="text-gray-700 text-base mb-2">"{text}"</p>
+            <p className="text-xl text-gray-600 font-heading font-bold capitalize">- {name}</p>
         </div>
 
 
