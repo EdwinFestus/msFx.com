@@ -21,7 +21,7 @@ export default function Home() {
       <section className='px-8 md:px-24'>
         <WhyUs />
       </section>
-      <section className='px-8 md:px-24'>
+      <section className='px-4 md:px-24'>
         <About />
       </section>
       <section className='bg-gray-100 py-20 px-8 md:px-24'>
