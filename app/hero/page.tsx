@@ -1,5 +1,3 @@
-import Button from '@/components/Button'
-
 
 const Hero = () => {
   return (
