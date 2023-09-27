@@ -103,7 +103,7 @@ const Navbar = () => {
         } md:hidden bg-gray-800`}
         id="mobile-menu"
       >
-        <div className="container mx-auto px-2 pt-2 pb-3 space-y-1 h-[40vh] sm:px-3">
+        <div className="container mx-auto px-2 pt-2 pb-3 space-y-1 h-[60vh] sm:px-3">
           <a
             href="#"
             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
