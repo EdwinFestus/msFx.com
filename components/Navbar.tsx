@@ -144,7 +144,7 @@ const Navbar = () => {
           <div className='border-b-2 w-sm border-gray-700 pt-[1rem]'></div>
         <div className='flex flex-col'>
           <a href="/login" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium'>Login</a>
-          <a href="signup" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium'>Sign-up</a> 
+          <a href="/signup" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium'>Sign-up</a> 
         </div>
         </div>
 
