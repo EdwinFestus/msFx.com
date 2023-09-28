@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4 items-center">
           <div className="w-full lg:w-1/2 px-4">
-            <h2 className="text-3xl font-bold mb-4 uppercase">Welcome to Our Website</h2>
+            <h2 className="text-3xl font-bold mb-4 uppercase">Why Choose MastermindFX? </h2>
             <p className="text-gray-700 leading-relaxed mb-8">
               We are a team of passionate individuals dedicated to providing top-notch services and solutions to our clients.
               With years of experience in the industry, we have successfully delivered numerous projects and have built a strong reputation for our expertise and professionalism.

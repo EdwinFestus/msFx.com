@@ -26,13 +26,13 @@ const Navbar = () => {
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="blogs"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Blog
                 </a>
                 <a
-                  href="#"
+                  href="about"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
@@ -44,7 +44,7 @@ const Navbar = () => {
                   Billing
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact

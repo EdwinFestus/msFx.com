@@ -5,7 +5,7 @@ import { FaBook } from 'react-icons/fa'
 const WhyUs = () => {
   return (
     <section className='flex items-start lg:items-center flex-col py-20 font-text max-container mx-auto'>
-        <h2 className='text-3xl font-bold text-center mb-10 font-heading uppercase'>Why Choose MastermindFX?</h2>
+        <h2 className='text-3xl font-bold text-center mb-10 font-heading uppercase'>Welcome to Our MastermindFX</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             <WhyUsComponent 
