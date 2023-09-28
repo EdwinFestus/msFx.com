@@ -23,7 +23,7 @@ function CardTestimonial({ imgUrl, text, name }: { imgUrl?: string, text: string
             }
             </div>
             <p className="text-gray-700 text-base mb-2">"{text}"</p>
-            <p className="text-xl text-gray-600 font-heading font-bold capitalize">- {name}</p>
+            <p className="text-lg text-gray-600 font-heading font-semibold capitalize">- {name}</p>
         </div>
 
 

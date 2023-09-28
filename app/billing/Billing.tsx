@@ -6,7 +6,7 @@ const Billing = () => {
             <div className="flex flex-col items-center justify-center min-h-screen p-10 text-gray-700  md:p-20">
                 <h2 className="text-4xl text-light-md font-medium font-heading uppercase mb-8">MastermindFx Membership</h2>
 
-                <div className="flex flex-wrap items-center justify-center w-full max-w-4xl mt-8">
+                <div className="flex flex-wrap items-center justify-center w-full max-w-4xl mt-8 ">
                     <div className="flex flex-col flex-grow mt-8 overflow-hidden bg-white rounded-lg shadow-lg">
                         <div className="flex flex-col items-center p-10 bg-gray-200">
                             <span className="font-semibold">Padawan</span>
@@ -43,7 +43,10 @@ const Billing = () => {
                         </div>
                     </div>
 
-                    <div className="z-10 flex flex-col flex-grow mt-8 overflow-hidden transform bg-white rounded-lg shadow-lg md:scale-110">
+
+
+
+                    <div className="z-10 flex flex-col flex-grow my-8  overflow-hidden transform bg-white rounded-lg shadow-lg md:scale-110">
                         <div className="flex flex-col items-center p-10 bg-gray-200">
                             <span className="font-semibold">Jedi Knight</span>
                             <div className="flex items-center">
@@ -78,6 +81,12 @@ const Billing = () => {
                             <button className="flex items-center justify-center w-full h-12 px-6 text-sm uppercase bg-gray-200 rounded-lg">Join now</button>
                         </div>
                     </div>
+
+
+
+
+
+
 
                     <div className="flex flex-col flex-grow overflow-hidden bg-white rounded-lg shadow-lg mt-19">
                         <div className="flex flex-col items-center p-10 bg-gray-200">
