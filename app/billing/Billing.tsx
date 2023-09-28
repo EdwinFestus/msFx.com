@@ -3,7 +3,7 @@
 const Billing = () => {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center min-h-screen p-10 text-gray-700  md:p-20">
+            <div className="flex flex-col items-center justify-center min-h-screen py-32 p-10 text-gray-700  md:p-20">
                 <h2 className="text-4xl text-light-md font-medium font-heading uppercase mb-8">MastermindFx Membership</h2>
 
                 <div className="flex flex-wrap items-center justify-center w-full max-w-4xl mt-8 ">
