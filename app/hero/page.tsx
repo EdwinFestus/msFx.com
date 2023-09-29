@@ -9,8 +9,8 @@ const Hero = () => {
         <p className='text-gray-300 mb-8 text-base'>Welcome to the world of limitless financial possibilities! Are you ready to harness the power of the foreign exchange market like a true master? <span className="hidden md:inline-block">Look no further than MastermindFX – your gateway to success in the dynamic world of forex trading!</span></p>
         
         <div  className='flex space-x-5'>
-          <a href="#" className=" hover:bg-cyan-500 bg-cyan-700 text-light-md py-2 font-semibold px-4 rounded">Learn More</a>
-          <a href="#" className="bg-red-500 hover:bg-red-400  py-2 font-semibold px-4 text-white rounded">Get Started</a>
+          <a href="/about" className=" hover:bg-cyan-500 bg-cyan-700 text-light-md py-2 font-semibold px-4 rounded">Learn More</a>
+          <a href="login" className="bg-red-500 hover:bg-red-400  py-2 font-semibold px-4 text-white rounded">Get Started</a>
         </div>
     </section>
   )

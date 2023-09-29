@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,46 +16,46 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 w-full">
           <div className="flex items-center justify-between w-full">
             <div className="flex-shrink-0">
-              <h3 className='uppercase font-bold font-heading'>MastermindFx</h3>
+              <a className='uppercase font-bold font-heading'href='/'>MastermindFx</a>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a
+                <Link
                   href="/"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Home
-                </a>
-                <a
+                </Link>
+                <Link
                   href="blogs"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Blog
-                </a>
-                <a
+                </Link>
+                <Link
                   href="about"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
-                </a>
+                </Link>
                 <a
                   href="/billing"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Billing
                 </a>
-                <a
+                <Link
                   href="/contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
 
               <div className='hidden md:block'>
-                <a href="/login" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Login</a>
-                <a href="/signup" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Sign-up</a>
+                <Link href="/login" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Login</Link>
+                <Link href="/signup" className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Sign-up</Link>
               </div>
           </div>
           <div className="-mr-2 flex md:hidden">

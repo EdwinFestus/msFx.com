@@ -10,9 +10,9 @@ const CallToAction = () => {
         <p className="text-gray-400 mb-8">
           Unlock the secret of trading by taking the right action now, Join us as mastermindfx and share your own testimony
         </p>
-        <button className="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded">
+        <a className="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded" href='/login' >
           Get Started Now...
-        </button>
+        </a>
       </div>
     </section>
   );
