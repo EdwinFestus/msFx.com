@@ -3,9 +3,9 @@ import React from 'react'
 
 function LoginPage() {
   return (
-    <div className="py-52 container mx-auto ">
+    <div className="py-32 md:py-52 container mx-auto ">
       <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-        <div className="hidden lg:block lg:w-1/2 bg-cover" style={{background:`url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')`}}></div>
+        <div className="hidden lg:block lg:w-1/2 bg-cover" style={{background:`url('/images/login.jpg') center/cover`}}></div>
         <div className="w-full p-8 lg:w-1/2">
           <h2 className="text-2xl font-semibold text-gray-700 text-center">Brand</h2>
           <p className="text-xl text-gray-600 text-center">Welcome back!</p>
