@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 w-full">
           <div className="flex items-center justify-between w-full">
             <div className="flex-shrink-0">
-              <a className='uppercase font-bold font-heading'href='/'>MastermindFx</a>
+              <a className='uppercase font-bold font-heading tracking-widest' href='/'>MastermindFx</a>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
