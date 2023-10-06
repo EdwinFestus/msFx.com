@@ -5,7 +5,7 @@ import { AboutCard } from '@/components/AboutCard'
 
 const AboutHero = () => {
   return (
-    <section className='flex flex-col  container mx-auto h-full py-52 w-full items-center text-center  px-4 md:h-[70vh] text-white relative'>
+    <section className='flex flex-col justify-center  container mx-auto lg:py-52 w-full items-center text-center  px-4 h-[50vh] lg:h-[70vh] text-white relative'>
        
     <div className=''>
         <h3 className='text-3xl text-white font-bold uppercase mb-5 tracking-widest' >Who we are</h3>

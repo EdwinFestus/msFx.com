@@ -2,7 +2,7 @@ import React from 'react';
 
 const CallToAction = () => {
   return (
-    <section className="bg-gray-800 py-20">
+    <section className="bg-gray-800 py-20 px-4">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-4 capitalize tracking-wide">
           Master the art of trading

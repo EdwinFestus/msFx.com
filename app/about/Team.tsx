@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 function Team() {
     return (
-        <div className='text-white py-32 md:pb-52 container mx-auto px-4 flex justify-center flex-col items-center'>
+        <div className='text-white py-20 md:pb-52 container mx-auto px-4 flex justify-center flex-col items-center'>
             <div className='text-center mb-14 md:max-w-xl md:mr-16'>
                 <p className='text-lightblue-md text-sm tracking-widest'>Team</p>
                 <h2 className='text-gray-200 text-3xl font-bold mb-5 mt-3 uppercase tracking-widest'>Meet The Team</h2>
