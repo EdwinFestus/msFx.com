@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FaPhoneAlt, FaTelegram, FaWhatsapp } from 'react-icons/fa'
+
 function ContactCont() {
   return (
     <div>
@@ -40,8 +42,7 @@ function ContactCont() {
                 </div>
 
 
-
-               <div className="socials flex space-x-10 items-center justify-center mt-20">
+                <div className="socials flex space-x-10 items-center justify-center mt-20">
                     <a href="https://t.me/mastermindfx001" className='text-3xl hover:scale-110' target='_blank' >
                         <FaTelegram />
                     </a>
